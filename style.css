@@ -11,3 +11,6 @@
 
 /* Award board credit */
 .award-list{list-style:none;padding:0;margin:18px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:24px}.award-list strong{display:block;font-size:13px;font-weight:500;line-height:1.9}.award-list span{display:block;font-size:21px;color:var(--accent);margin-top:10px}@media(max-width:700px){.award-list{grid-template-columns:1fr;gap:16px}.award-list span{font-size:18px}.award-list strong{font-size:12px}}
+
+/* 3D product case study */
+.cover-3d{background:#ddd4c7}.cover-3d img{object-fit:contain}.product-3d-hero{background:#ded6c9;display:flex;justify-content:center}.product-3d-hero img{width:min(100%,880px);height:auto}.product-3d-gallery .wide{grid-column:1/-1}.product-3d-gallery figure:only-child{max-width:none}.product-3d-gallery .zoom-image img{object-fit:contain}.product-3d-gallery .wide img{max-height:720px;object-fit:contain;background:#e4e0d5}@media(max-width:700px){.product-3d-card{grid-column:span 2!important}.product-3d-card .card-image{aspect-ratio:1.35;padding:16px}.product-3d-card .card-arrow{display:flex!important}.product-3d-card .card-meta h3{font-size:21px}.product-3d-gallery .wide img{max-height:none}}
